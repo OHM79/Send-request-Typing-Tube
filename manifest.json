@@ -1,0 +1,20 @@
+{
+	"name": "Send request Typing-Tube",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "Typing Tubeへリクエスト送信",
+	"permissions": [
+		"https://typing-tube.net/*",
+		"https://www.youtube.com/*",
+		"tabs"
+	],
+	"browser_action": {
+		"default_title": "Typing Tubeへリクエスト送信"
+	},
+	"background": {
+		"scripts": [
+			"jquery-3.2.0.min.js",
+			"background.js"
+		]
+	}
+}
